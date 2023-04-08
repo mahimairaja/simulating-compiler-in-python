@@ -1,3 +1,9 @@
+'''
+Deterministic Finite Automata
+Iterate through transition table to find whether the 
+string to belong to the language or not.
+'''
+
 class DeterministicFiniteAutomata:
     def __init__(self, initial, final, dfa_table) -> None:
         self.initialQ : str = initial
@@ -16,7 +22,6 @@ class DeterministicFiniteAutomata:
                 currQ = self.transTable[currQ][symbol]
                 print(f"{symbol} => {currQ}")
             except KeyError as e:
-                print('Key error')
                 return False 
         if currQ in self.finalQ :
             return True
