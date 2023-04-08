@@ -1,0 +1,9 @@
+         id datatype input_value return_type    arguments
+0       add     null        null         int   double,int
+1         a      int        null        null         null
+2         b      int          10        null         null
+3         c     char           d        null         null
+4         x    float        15.8        null         null
+5  multiply     null        null      double  double,char
+6      name   string     Mahimai        null         null
+7    rollno    short        1051        null         null
