@@ -1,0 +1,10 @@
+#include<stdio.h>
+voidmain()
+{
+inta=10,b=5;
+floatc;
+a = a * b / a + b
+c = c + d
+c=3.5*3;
+e = e * f
+}

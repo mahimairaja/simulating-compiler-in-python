@@ -1,0 +1,14 @@
+# include <stdio.h>
+# define EVAL ( p , q ) { p = p * q / p + q } 
+# define ADD ( z , w ) { z = z + w }
+# define multiply ( a , b ) { a = a * b }
+# define pi 3.5
+void main ( ) 
+{ 
+int a = 10 , b = 5 ; 
+float c ;
+EVAL ( a , b ) ; 
+ADD ( c , d ) ;
+c = pi * 3 ;
+multiply ( e , f ) ;
+} 
